@@ -1,0 +1,14 @@
+{
+  "name": "SVG-LOGO-MAKER",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^29.7.0"
+  }
+}
