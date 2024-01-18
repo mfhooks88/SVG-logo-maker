@@ -54,7 +54,7 @@ async function generateLogo() {
       <text x="150" y="100" fill="${userInput.textColor}" font-size="20" text-anchor="middle">${userInput.text}</text>
     </svg>`;
 
-        const fileName = 'logo.svg';
+        const fileName = 'examples/logo.svg';
 
         fs.writeFileSync(fileName, svgContent);
         console.log(`Generated ${fileName}`);
